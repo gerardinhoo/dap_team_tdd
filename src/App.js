@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dap = () => {
+const App = () => {
   return (
     <div>
       <h1 data-header>Welcome to the DAP team!</h1>
@@ -8,4 +8,4 @@ const Dap = () => {
   );
 };
 
-export default Dap;
+export default App;
