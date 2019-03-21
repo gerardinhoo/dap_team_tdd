@@ -16,7 +16,7 @@ describe("App component", () => {
   });
 });
 
-// ----- Test Anatomy ---- //
+// ----- Anatomy of a test ---- //
 
 // 1. "describe"  => describes What component aspect we are testing
 // 2. "it"        => describes the piece of functionality we're testing.
