@@ -43,15 +43,3 @@ Render => Renders react components to static HTML.
 Data Attributes are a way to store a data. They are an alternative for css selectors such as classes and ID's. It's recommended to use data-attributes over css selectors
 Because they be removed or changed without our knowledge and that can break our tests.
 They start with the word data. example: data-location
-
-## A test anatomy
-
-describe('app', () => {
-it('renders something...', () => {
-expect(thisThing).toBe(thatValue)
-})
-})
-
-Describe => describes What component aspect we are testing
-It => describes the piece of functionality we're testing.
-expect => An assertion that perfoms a check on a software output.
